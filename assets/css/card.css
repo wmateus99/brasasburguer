@@ -1,8 +1,17 @@
+.content-slide {
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
 .swiper .swiper-slide {
     padding: 15px;
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: center;
+    max-width: 250px;
 }
 .swiper .swiper-slide .card {
     width: 100%;
@@ -43,10 +52,11 @@
 
 .box-image {
     box-shadow: 1px 1px 4px #00000050;
+    background-position: center;
 }
 
 .img1 {
-    background-image: url('/assets/img/cardapio.jpeg');
+    background-image: url('/assets/img/cardapio.png');
 }
 .img2 {
     background-image: url('/assets/img/whatsapp.jpg');

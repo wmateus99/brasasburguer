@@ -19,7 +19,9 @@ body {
     color: #fff;
     min-height: 100vh;
     position: relative;
-    background-color: #111;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/assets/img/background.webp');
 }
 
 .container {
