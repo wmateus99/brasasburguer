@@ -1,0 +1,47 @@
+@import url('/assets/css/header.css');
+@import url('/assets/css/slide.css');
+@import url('/assets/css/card.css');
+
+@font-face {
+    font-family: 'ThunderhousePro';
+    src: url('/assets/fonts/ThunderhousePro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    color: #fff;
+    min-height: 100vh;
+    position: relative;
+    background-color: #111;
+}
+
+.container {
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 750px;
+    align-items: center;
+    justify-content: center;
+}
+
+#background-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    transition: opacity 0.5s ease;
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

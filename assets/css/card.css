@@ -1,0 +1,59 @@
+.swiper .swiper-slide {
+    padding: 15px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.swiper .swiper-slide .card {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper .swiper-slide .card .box-image {
+    overflow: hidden;
+    margin: 10px auto;
+    min-height: 150px;
+    border-radius: 20px;
+    background-size: cover;
+}
+.swiper .swiper-slide .card .box-description {
+    min-height: 80px;
+    color: #111111;
+    font-size: 0.9rem;
+    margin: 10px auto;
+    text-align: center;
+}
+.swiper .swiper-slide .card .box-button {
+    margin: 10px auto;
+}
+.swiper .swiper-slide .card .box-button button {
+    width: 100%;
+    height: 35px;
+    border: none;
+    display: flex;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.9rem;
+    background: #dd001f;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-image {
+    box-shadow: 1px 1px 4px #00000050;
+}
+
+.img1 {
+    background-image: url('/assets/img/cardapio.jpeg');
+}
+.img2 {
+    background-image: url('/assets/img/whatsapp.jpg');
+}
+.img3 {
+    background-image: url('/assets/img//localizacao.jpg');
+}
+.img4 {
+    background-image: url('/assets/img//avaliacao.png');
+}
